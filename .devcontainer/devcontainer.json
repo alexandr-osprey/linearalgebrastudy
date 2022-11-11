@@ -1,0 +1,19 @@
+{
+    "name": "Python dev",
+    "dockerComposeFile": [
+        "../dev/docker-compose.yml"
+    ],
+    "service": "pythondev",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        // "ms-python.python",
+        "ms-python.vscode-pylance",
+        "VisualStudioExptTeam.vscodeintellicode"
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true
+    }
+}
